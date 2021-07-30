@@ -1,0 +1,46 @@
+#features {
+  background-color: var(--white-c);
+
+  position: relative;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-box i {
+  color: var(--icons-c);
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-box i:hover,
+.feature-box i:active {
+  color: var(--icons-c-hover);
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#features p {
+  color: var(--gray-text);
+  font-size: .9rem;
+}
+
+
+/* -- MEDIA QUERIES */
+
+@media (max-width:768px) {
+
+  .features-icon i {
+    margin-bottom: .5rem;
+  }
+
+  #features p {
+    margin-bottom: 1.5rem;
+  }
+
+}

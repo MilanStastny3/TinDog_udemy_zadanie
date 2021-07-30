@@ -1,0 +1,80 @@
+#title {
+  background-color: #ff4c68;
+  color: var(--white-c);
+}
+
+/* NAVIGATION BAR CSS */
+
+.container nav {
+  padding: 0 0 4.5rem; 
+}
+
+.navbar-brand {
+  font-family: var(--ff-ubuntu);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.title-row h1 {
+  font-family: var(--ff-mont);
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* DOWNLOAD BUTTONS CSS */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+
+/* INTRO IMG CSS  */
+
+.intro-img {
+  position: absolute;
+  top: 14rem;
+  transform: rotate(25deg);
+  width: 17%;
+}
+
+
+/* --- MEDIA QUERIES */
+
+@media (max-width: 992px) {
+
+  .intro-img {
+    display: none;
+  }
+
+  .title-row {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .title-row h1 {
+    font-size: 2.8rem;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .title-row h1 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+}

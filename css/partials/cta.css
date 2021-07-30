@@ -1,0 +1,32 @@
+
+#cta {
+  background-color: var(--icons-c-hover);
+  color: var(--white-c);
+}
+
+#cta h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+#cta .container {
+  padding: 3rem 2rem;
+}
+
+#cta .download-button {
+  margin: 2.5rem 1.5rem 2.5rem 0;
+}
+
+/* --  MEDIA QUERIES -- */
+
+@media (max-width:450px) {
+
+  #cta .download-button {
+    margin-bottom: 1rem;
+  }
+
+  #cta .container button:last-child {
+    margin-top: .5rem;
+  }
+
+}

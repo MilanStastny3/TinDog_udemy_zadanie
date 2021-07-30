@@ -1,0 +1,35 @@
+@import url("partials/intro.css");
+@import url("partials/features.css");
+@import url("partials/testimonials+press.css");
+@import url("partials/pricing.css");
+@import url("partials/cta.css");
+@import url("partials/footer.css");
+
+:root {
+  
+  --ff-mont: 'Montserrat', sans-serif;
+  --ff-ubuntu: 'Ubuntu', sans-serif;
+  
+  --white-c: #fff;
+  --gray-text: #8f8f8f;
+  --dark-gray-c: #5d5d5d;
+  --icons-c: #ef8172;
+  --icons-c-hover: #ff4c68; 
+}
+
+body {
+  font-family: var(--ff-mont);
+}
+
+.container {
+  max-width: 1300px;
+  padding: 3% 8% 7% 8%;
+}
+
+.btn-dark:hover,
+.btn-dark:active {
+  color: var(--icons-c-hover);
+}
+
+
+

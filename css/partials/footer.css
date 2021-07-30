@@ -1,0 +1,23 @@
+
+#footer .container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#footer ul {
+  margin: 0.5rem 0;
+}
+
+#footer ul li {
+  padding: 0 1rem;
+}
+
+#footer ul a {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+#footer ul a:hover,
+#footer ul a:active {
+  color: var(--icons-c-hover);
+}

@@ -1,0 +1,15 @@
+
+.pricing-heading {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.pricing-heading h2 {
+  color: var(--icons-c);
+  font-weight: 700;
+}
+
+.pricing-heading p {
+  color: var(--gray-text);
+}
